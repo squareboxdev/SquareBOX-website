@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap Navbar Menu Template</title>
+
+        <!-- CSS -->        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400|Roboto:300,400,500">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+       
+        
+
+    </head>
+  <body>
+    <header> 
+   <div class="">
+  
+ <nav class="navbar navbar-inverse" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">Bootstrap Navbar Menu Template</a>
+					</div>
+					
+					<div class="collapse navbar-collapse" id="top-navbar-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="About.html">About</a></li>
+							<li><a href="Service.html">Service</a></li>
+							<li><a href="Client.html">Client</a></li>
+							<li><a href="Contact.html">Contact</a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</nav></div>
+ 
+ 
+	
+    	<!-- Top content-->
+       
+        
+        		<!-- Top menu -->
+		
+    
+            
+        </div>
+
+            
+        </div>
+        </header>
+
+
+<br/>
+<br/>
+<section>
+  
+  <section class="contact_2">
+            <div class="maps">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.5828388329064!2d80.23832311472897!3d13.062204416418117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266665f5938c1%3A0xc08f4be0395ae94e!2sTechfosys+Software+Solutions!5e0!3m2!1sen!2sin!4v1469782605016" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  
+				<!-- <iframe src="https://maps.google.com/maps?q=13.0623233,80.2404851&hl=es;z=14&amp;output=embed" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+            </div> 
+            <div class="container">
+                <div class="row sub_content">
+                    <div class="col-lg-7 col-md-7 col-sm-7">
+                        <div class="dividerHeading">
+                            <h4><span>Get In Touch with us</span></h4>
+                        </div>
+                        <p> You can contact us directly online via email or telephone,  Your enquiries are always attended to promptly and politely.</p>
+						 
+						<div class="alert alert-success hidden alert-dismissable" id="contactSuccess">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <strong>Success!</strong> Your message has been sent to us.
+                        </div>
+
+                        <div class="alert alert-error hidden" id="contactError">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <strong>Error!</strong> There was an error sending your message.
+                        </div>
+						
+						     
+
+                        <form name="client_enquiry_form" method="post" id="contactForm" novalidate enctype="multipart/form-data">
+						
+                            <div class="row">
+                                <div class="form-group">
+                                    <div class="col-lg-6 ">
+                                        <input type="text" id="name" name="name" class="form-control" maxlength="100" data-msg-required="Please enter your name." value="" placeholder="Your Name : " >
+                                    </div>
+                                    <div class="col-lg-6 ">
+                                        <input type="email" id="email" name="email" class="form-control" maxlength="100" data-msg-email="Please enter a valid email address." data-msg-required="Please enter your email address." value="" placeholder="Your E-mail : " >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group">                                   
+                                    <div class="col-md-12">
+                                        <input type="text" id="contact_number" name="contact_number" class="form-control" maxlength="100" data-msg-required="Please enter your contact number." value="" placeholder="Contact Number : " onkeypress="return isNumeric(event);">
+                                    </div>
+
+                                </div>
+                            </div>    
+							<div class="row">
+                                <div class="form-group">                                   
+                                    <div class="col-md-12">
+                                        <input type="text" id="subject" name="subject" class="form-control" maxlength="100" data-msg-required="Please enter the subject." value="" placeholder="Subject : ">
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group">
+                                    <div class="col-md-12">
+                                        <textarea id="message" class="form-control" name="message" rows="10" cols="50" data-msg-required="Please enter your message." maxlength="5000" placeholder="Message : "></textarea>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 text-right">
+                                    <input type="submit" name="client_enquiry" data-loading-text="Loading..." class="btn btn-default btn-lg" value="Send Message">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-lg-5 col-md-5 col-sm-5">
+                        <div class="sidebar">
+                            <div class="widget_info">
+                                <div class="dividerHeading">
+                                    <h4><span>Contact Info</span></h4>
+                                </div>                                
+								<ul class="widget_info_contact">
+                                    <li><i class="fa fa-map-marker"></i> <p> <b> Techfosys Software Solutions Private Limited </b> </br> #30/13 First Floor, <br/> Jayalakshmipuram 1st Street, <br> Nungambakkam, <br> Chennai  - 600 034.  <br> India.  <br/> <b> Land Mark : </b> <br/> Maritime Foundation Building 1st Floor.</p></li>
+                                    <li><i class="fa fa-envelope"></i><strong>Email</strong> <p>  <a href="mailto:info@techfosys.com">info@techfosys.com</a> </p> </li>
+                                    <li><i class="fa fa-phone"></i><strong>Our Phone</strong> <p>  +91 44 43542727 </p></li> 
+                                </ul>
+                            </div>  
+
+                            <div class="widget_social">
+                                <ul class="widget_social">
+                                    <li><a target="_blank" class="fb" href="https://www.facebook.com/techfosys" data-placement="bottom" data-toggle="tooltip" title="Facbook"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a target="_blank" class="twtr" href="https://twitter.com/techfosysindia" data-placement="bottom" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a target="_blank" class="gmail" href="https://plus.google.com/u/0/100632479482049647555" data-placement="bottom" data-toggle="tooltip" title="Google"><i class="fa fa-google-plus"></i></a></li>                                   
+                                    <li><a target="_blank" class="pinterest" href="https://www.pinterest.com/techfosys" data-placement="bottom" data-toggle="tooltip" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+                                    <li><a target="_blank" class="linkedin" href="http://in.linkedin.com/in/techfosys-softwares-ab4455111" data-placement="bottom" data-toggle="tooltip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a target="_blank" class="flickrs" href="https://www.flickr.com/people/techfosysindia/" data-placement="bottom" data-toggle="tooltip" title="Flickr"><i class="fa fa-flickr"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </section>
+<!--end wrapper-->
+
+<!--start footer-->
+ <script>
+  !function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+        p = /^http:/.test(d.location) ? 'http' : 'https';
+    if (!d.getElementById(id)) {
+      js = d.createElement(s);
+      js.id = id;
+      js.src = p + "://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }
+  }(document, "script", "twitter-wjs");
+</script>
+ <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 col-lg-3">
+                    <div class="widget_title">
+                        <h4><span>Reach Us</span></h4>
+                    </div>
+                    <div class="widget_content">
+                        <p> Contact us anytime for anything you need including queries about your projects, <br/> We are here for you always! </p>
+                        <ul class="contact-details-alt">
+                            <li><i class="fa fa-map-marker"></i> <p><strong> Address </strong>: #30/13 First Floor, </p></li>
+                            <li><i class="fa "></i> <p><strong>&nbsp;</strong>:  Jayalakshmipuram 1st St, </p></li>
+                            <li><i class="fa "></i> <p><strong>&nbsp;</strong>:  Nungambakkam , </p></li>
+                            <li><i class="fa "></i> <p><strong>&nbsp;</strong>:  Chennai - 34 </p></li>
+                            <li><i class="fa "></i> <p><strong>&nbsp;</strong>: Tamilnadu , India. </p></li>
+                            <li><i class="fa fa-user"></i> <p><strong>Phone</strong>: +91 44 43542727 </p></li>
+                            <li><i class="fa fa-envelope"></i> <p><strong>Email</strong>: <a href="#"> info@techfosys.com </a></p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-3">
+                    <div class="widget_title">
+                        <h4><span>Our Major Services</span></h4>
+                    </div>
+                    <div class="widget_content">
+                        <ul class="links">
+                            <li>Automotive Modeling</li>
+                            <li>Machine Modeling</li>
+                            <li>Interior and Exterior Modeling</li>
+                            <li>Stage Designing</li>
+                            <li>Furniture Modeling</li>
+                            <li>Layout Development Modeling</li>
+                            <li>Props Modeling</li>
+                            <li>2D and 3D Projections</li>
+                            <li>3D Interactive PDF</li>
+                            <li>Operation Principle Animation</li>
+                            <li>Machine Assembling Animation</li>
+                        </ul>
+                    </div>
+                </div>
+               <div class="col-sm-6 col-md-3 col-lg-3">
+                    <div class="widget_title">
+                        <h4><span>Twitter</span></h4>
+                    </div>
+					<div class="twitter-wrapper" style=" width:260px; 
+  margin:auto;
+  border:0px #fff solid !important;
+  border-radius:5%;
+  background:#323a45;
+  text-align:center;">
+   <a class="twitter-timeline" href="https://twitter.com/techfosysindia"
+      data-theme="dark"
+      data-chrome="transparent noheader nofooter noscrollbar"
+      height="220" width="300">Tweets by @twitter</a>
+</div>
+                 
+                    <div class="widget_content">
+                        <div class="tweet_go"></div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-3">
+                    <div class="widget_title">
+                        <h4><span>Flickr Gallery</span></h4>
+                    </div>
+                    <div class="widget_content">
+                        <div class="flickr">
+                            <ul id="flickrFeed" class="flickr-feed"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!--end footer-->
+
+<section class="footer_bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<p class="copyright">&copy; Copyright 2018 | <a href="#"> Techfosys </a></p>
+				</div>
+
+				<div class="col-sm-6 ">
+					<div class="footer_social">
+						<ul class="footbot_social">
+							<li><a target="_blank" class="fb" href="https://www.facebook.com/techfosys" data-placement="top" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a target="_blank" class="twtr" href="https://twitter.com/techfosysindia" data-placement="top" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a target="_blank" class="gmail" href="https://plus.google.com/u/0/100632479482049647555" data-placement="top" data-toggle="tooltip" title="Google"><i class="fa fa-google-plus"></i></a></li>
+							<li><a target="_blank" class="linkedin" href="http://in.linkedin.com/in/techfosys-softwares-ab4455111" data-placement="top" data-toggle="tooltip" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+</section>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73952157-1', 'auto');
+  ga('send', 'pageview');
+
+</script><meta name="google-site-verification" content="LP_YnYDJ7Rlpf_yGqnNr1Ca5UcsKUUOwpaFmsY77PYY" />
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PQ55DHH');</script>
+<!-- End Google Tag Manager -->
+
+
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/retina-1.1.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script> <!-- jQuery cookie -->
+<script type="text/javascript" src="js/styleswitch.js"></script> <!-- Style Colors Switcher -->
+<script type="text/javascript" src="js/jquery.smartmenus.min.js"></script>
+<script type="text/javascript" src="js/jquery.smartmenus.bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jflickrfeed.js"></script>
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="js/swipe.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed-min.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript" src="js/view.contact.js"></script>
+<script type="text/javascript" src="js/jquery.gmap.js"></script>
+
+<script src="js/main.js"></script>
+
+<!-- Start Style Switcher 
+<div class="switcher"></div>
+ End Style Switcher -->
+<scri
+</section>
+ <footer >
+        
+                   <img src="images/221.jpg"  width="1500" style="margin-left:0px;">
+    
+
+        
+       
+    </footer>
+        <!-- Javascript -->
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/retina-1.1.0.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
+
+    </body>
+
+</html>
